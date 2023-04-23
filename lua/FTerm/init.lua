@@ -5,10 +5,9 @@ local M = {}
 local t = Term:new()
 
 ---Creates a custom terminal
----@param cfg Config
 ---@return Term
-function M:new(cfg)
-    return Term:new():setup(cfg)
+function M:new()
+    return Term:new()
 end
 
 ---(Optional) Configure the default terminal
